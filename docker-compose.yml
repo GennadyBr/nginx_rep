@@ -1,12 +1,15 @@
 version: "3"
 services:
   nginx_proxy:
-    image: jwilder/nginx-proxy
+    image: nginx:1.25.3
+#    image: jwilder/nginx-proxy
     container_name: nginx_proxy
     ports:
       - "80:80"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
+      - /var/www/html:/usr/share/nginx/html
+    restart: always
 
 networks:
   default:
