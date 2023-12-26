@@ -161,3 +161,10 @@ cython_debug/
 .idea
 /idea/
 /templates/1.html
+/nginx/modules/
+/nginx/fastcgi_params
+/nginx/mime.types
+/nginx/scgi_params
+/nginx/uwsgi_params
+/log/nginx/access.log
+/log/nginx/error.log
