@@ -3,9 +3,8 @@
 #service apache2 stop
 
 sudo docker network create nginx_proxy
-sudo docker compose down
-sudo docker compose up -d --build
-#sudo docker-compose up -d --build
+sudo docker-compose down
+sudo docker-compose up -d --build
 sudo docker logs nginx_proxy
 
 sudo docker network inspect nginx_proxy
