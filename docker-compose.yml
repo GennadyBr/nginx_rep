@@ -26,6 +26,9 @@ networks:
 
 volumes:
   static_volume:
+    external: true
   media_volume:
+    external: true
   nginx_volume:
+    external: true
 
