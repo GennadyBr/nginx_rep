@@ -4,11 +4,6 @@
 
 sudo docker network create nginx_proxy
 
-#sudo docker volume create --name=postgres_data
-#sudo docker volume create --name=static_volume
-#sudo docker volume create --name=media_volume
-#sudo docker volume create --name=nginx_volume
-
 sudo docker-compose down
 sudo docker-compose up -d --build
 sudo docker logs nginx_proxy
