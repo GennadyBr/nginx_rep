@@ -26,7 +26,7 @@ backend
 http://5.35.83.245:8000/admin
 
 elastic_dc
-9200
+9202
 
 
 
@@ -36,6 +36,8 @@ airflow-webserver
 8080
 http://5.35.83.245:8080/
 
+elastic
+9200
 
 
 FLASK_ELASTIC
