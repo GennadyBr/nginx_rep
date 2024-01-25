@@ -4,6 +4,7 @@ app_2401
 8001
 http://5.35.83.245:8001/fastapi/docs
 
+
 flower_2401
 5555
 
@@ -29,10 +30,11 @@ elastic_dc
 
 
 
-FLASK_MONGO
-flask_mongo_app
-82
-http://5.35.83.245:82/flask_mongo_app
+
+APACHE AIRFLOW
+airflow-webserver
+8080
+http://5.35.83.245:8080/
 
 
 
@@ -48,10 +50,12 @@ kibana_2
 5601
 
 
-APACHE AIRFLOW
-airflow-webserver
-8080
-http://5.35.83.245:8080/
+
+FLASK_MONGO
+flask_mongo_app
+82
+http://5.35.83.245:82/flask_mongo_app
+
 
 
 
